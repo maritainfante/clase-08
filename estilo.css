@@ -19,6 +19,9 @@ body {
 a {
     font-weight: 500;
     text-decoration: underline;
+    color: #000;
+}
+a[hrefs=".pdf"]{
     color: #f40b16;
 }
 
