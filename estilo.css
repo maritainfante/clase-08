@@ -19,7 +19,7 @@ body {
 a {
     font-weight: 500;
     text-decoration: underline;
-    color: #b71c1c;
+    color: #f40b16;
 }
 
 a:hover {
@@ -249,7 +249,7 @@ table tfoot a, figure figcaption a {
 }
 
 table tfoot a:hover, figure figcaption a:hover {
-    color: #888;
+    color: #f40b16;
     text-decoration: underline;
 }
 
