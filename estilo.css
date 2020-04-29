@@ -249,7 +249,7 @@ table tfoot a, figure figcaption a {
 }
 
 table tfoot a:hover, figure figcaption a:hover {
-    color: #f40b16;
+    color: #800;
     text-decoration: underline;
 }
 
