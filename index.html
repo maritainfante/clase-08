@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Covid-19 en comunas de Santiago</title>
+</head>
+
+<body>
+    <nav>
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html" selected>COVID-19</option>
+            <option value="page.html">SALUD Y MEDIO AMBIENTE</option>
+        </select>
+    </nav>
+    <div class="container">
+        <header>
+            <!--el elemento hgroup ya no se usa; ver http://html5doctor.com/the-hgroup-element/ -->
+            <h1><a href="index.html">Casos de Covid-19 por comunas de Santiago</a></h1>
+            <h3>En este articulo se muestra el numero de contagios por Covid-19 en la region Metropolitana</h3>
+            <h5>María Eliana Infante</h5>
+            <hr>
+        </header>
+        <section>
+            <p>Revisa a continuación el número de casos de personas contagiados por el coronavirus Covid-19, el cual fue declarado como una pandemia por la Organización Mundial de la Salud.</p>
+            <blockquote cite="https://psicologiaymente.com/reflexiones/frases-famosas">
+                <p>De todos los animales de la creación el hombre es el único que bebe sin tener sed, come sin tener hambre y habla sin tener nada que decir</p>
+                <footer><a href="https://psicologiaymente.com/reflexiones/frases-famosas">John Steinbeck</a></footer>
+            </blockquote>
+            <p> Las autoridades de salud entregaron el informe que muestra, entre otras cosas, que la comuna con más contagiados de la región Metropolitana es Las Condes con 181 casos hasta la fecha, mientras que fuera de la capital, el sector con mayor tasa de incidencia es Chillán (57,4).</p>
+            <h2>Contagiados de Covid-19 por comuna de la región Metropolitana</h2>
+            <p>Tres factores importantes de influyen en el numero de contagios por comuna son:</p>
+            <!--ver https://developer.mozilla.org/es/docs/Web/HTML/Elemento/ul -->
+            <ul>
+                <li>Calidad del sistema de salud</li>
+                <li>Vivienda y entorno</li>
+                <li>Condiciones socioculturales</li>
+            </ul>
+            <p>A continuacion se muestra un mapa con el contagio por comuna</p>
+            <figure>
+                <img src="https://ciperchile.cl/wp-content/uploads/g1-1.png" alt="Mapa por comuna">
+                <figcaption>La intensidad de color muestra el numero de contagios.</figcaption>
+            </figure>
+            <p>Esto se relaciona con las contidiciones de vida de cada comuna, para esto se realizo un articulo con datos de ICVU que lo desmuestra. <strong>Para más información <a href="page.html">visita la página interior</a></strong>.</p>
+        </section>
+        <footer>
+            <hr>
+            <p>María Eliana Infante &copy; 2020 <span class="derecha">Séptima clase, enfocada en <abbr title="HyperText Markup Language">html</abbr></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
